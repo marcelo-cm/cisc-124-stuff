@@ -70,7 +70,7 @@ public enum Bit {
 	 * @return the decimal value of this bit
 	 */
 	abstract int value();
-	
+
 	/**
 	 * Simple use cases.
 	 * 

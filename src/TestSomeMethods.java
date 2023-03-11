@@ -176,7 +176,7 @@ public class TestSomeMethods {
 		int exp = 1;
 		assertEquals("These declets are equal", exp, compareResult);
 	}
-
+	
 	@Test
 	public void test06a_add() {
 		Declet d = new Declet(arrayOf(0, 1, 0, 1, 1, 1, 1, 1, 1, 1));

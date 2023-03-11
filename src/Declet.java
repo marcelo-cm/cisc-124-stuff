@@ -16,7 +16,7 @@ public class Declet implements Comparable<Declet> {
 	static final int NUM_BITS = 10;
 
 	List<Bit> bits;
-
+	
 	// Constructors
 	public Declet() {
 		bits = new ArrayList<Bit>();
@@ -224,26 +224,6 @@ public class Declet implements Comparable<Declet> {
 		}
 		return result;
 	}
-
-	// compareTo(Declet other)
-	/*
-	public int compareTo(Declet other) {
-		int result = 0;
-		if (this.toDecimal() == other.toDecimal()) {
-			result = 0;
-		}
-
-		else if (this.toDecimal() > other.toDecimal()) {
-			result = 1;
-		}
-
-		else if (this.toDecimal() < other.toDecimal()) {
-			result = -1;
-		}
-
-		return result;
-	}
-	 */
 
 	/**
 	 * Prints some sums illustrating overflow at {@code Declet.MAX_VALUE} and
